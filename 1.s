@@ -109,10 +109,16 @@ str_const0:
 	.word	4
 	.word	8
 	.word	String_dispTab
-	.word	int_const6
-	.ascii	"Hello, world!"
+	.word	int_const7
+	.ascii	"Hello, world!\n"
 	.byte	0	
 	.align	2
+	.word	-1
+int_const7:
+	.word	2
+	.word	4
+	.word	Int_dispTab
+	.word	14
 	.word	-1
 int_const6:
 	.word	2
